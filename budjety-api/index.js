@@ -4,7 +4,6 @@ import registerController from './controllers/registerController.js';
 import expenseRouter from './routers/expenseRouter.js';
 import categoryRouter from './routers/categoriesRouter.js';
 import reportRouter from './routers/reportRouter.js';
-import specificRouter from './routers/specificRouter.js';
 import authorization from './middleware/authorise.js';
 import mongoose from 'mongoose';
 import cors from 'cors';

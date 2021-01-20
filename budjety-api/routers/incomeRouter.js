@@ -1,7 +1,7 @@
 import express from 'express';
 import {
     getIncomes, addIncome, deleteIncome,
-    sumOfIncomes, filteredIncomes, incomeSpecificFilter
+    sumOfIncomes, filteredIncomes
 } from '../controllers/incomeController.js';
 
 const incomeRouter = express.Router();

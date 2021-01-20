@@ -1,7 +1,7 @@
 import express from 'express';
 import {
     getExpenses, addExpense, deleteExpense,
-    sumOfExpenses, filteredExpenses, expenseSpecificFilter
+    sumOfExpenses, filteredExpenses
 } from '../controllers/expenseController.js';
 
 const expenseRouter = express.Router();
